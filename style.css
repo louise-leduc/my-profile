@@ -1,0 +1,97 @@
+/* Colors and fints */
+
+body {
+	background: #FBFBFB;
+	color: rgb(100, 100, 100);
+	font-family: "Delius", cursive;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+h1 {
+	color: #FFB38E;
+	font-family: Cooper Black;
+	font-size: 50px;
+}
+
+h2 {
+	color: #FFB38E;
+	font-family: Cooper Black;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color: steelblue;
+}
+a:hover {
+	color: lightblue;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.img-bordered {
+	border: 5px solid whitesmoke;
+}
+img {
+	height: 200px;	
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+/* Custom design with class*/
+
+.container {
+	width: 700px; 
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.card-white {
+	background: #CDFADB;
+    padding: 40px;
+    margin: 20px 0px;
+    text-align: center;
+    box-shadow: 0px 10px 30px lightgrey;
+    border-radius: 8px;
+}
+
+.btn-blue {
+	background-color: steelblue;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 8px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
